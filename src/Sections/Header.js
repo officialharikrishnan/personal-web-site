@@ -5,9 +5,9 @@ function Header() {
     return (
         <div className='header'>
             <ul>
-                <li><a href="#home">Skills</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home"><h2> Skills </h2></a></li>
+                <li><a href="#about"><h2>About</h2></a></li>
+                <li><a href="#contact"><h2>Contact</h2></a></li>
             </ul>
 
 
