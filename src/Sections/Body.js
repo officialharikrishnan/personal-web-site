@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect} from 'react'
 import './Body.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -37,17 +37,28 @@ function Body() {
 
                 <Row>
                     <Col sm={6}>
-                    <div  ><h1 data-aos="fade-left">Skills</h1></div>
+                    <h1 data-aos="fade-left">Skills</h1>
                     </Col>
                     <Col sm={6}>
+                        <h3>REACT JS</h3>
+                        <ProgressBar fillColor="blue" colorShift={false} percent={70} />
                         <h3>NODE JS</h3>
                         <ProgressBar fillColor="blue" colorShift={false} percent={50} />
                         <h3>MONGODB</h3>
                         <ProgressBar fillColor="blue" colorShift={false} percent={40} />
-                        <h3>REACT</h3>
-                        <ProgressBar fillColor="blue" colorShift={false} percent={70} />
                     </Col>
                 </Row>
+                </section>
+                <section id='about'>
+                    <Row>
+                        <Col sm={6}>
+                        <h1 data-aos="fade-left">About</h1>
+                        </Col>
+                        <Col sm={6}>
+                            <h2>I am a MERN Stack developer, <br /> with computer hardware background, <br /> i improved my coding skill through self learning <br /> My speciality is problem solving and self learning ability.</h2>
+                        </Col>
+                    </Row>
+
                 </section>
         </div>
     )
