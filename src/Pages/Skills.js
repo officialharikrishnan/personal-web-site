@@ -34,7 +34,7 @@ function Skills() {
                     </Col>
                     <Col md={6}>
                     <div className="skillbar">
-                        <ProgressBar fillColor="blue"  colorShift={false} percent={70} />
+                        <ProgressBar fillColor="blue"  colorShift={false} percent={40} />
                      </div>
                     </Col>
                 </Row>
@@ -44,7 +44,7 @@ function Skills() {
                     </Col>
                     <Col md={6}>
                     <div className="skillbar">
-                        <ProgressBar fillColor="blue"  colorShift={false} percent={70} />
+                        <ProgressBar fillColor="blue"  colorShift={false} percent={30} />
                      </div>
                     </Col>
                 </Row>

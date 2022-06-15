@@ -4,12 +4,14 @@ import { Container, Row, Col } from 'react-grid-system';
 import { HomeRedirect } from '../Context/Homecontext';
 import { useNavigate } from 'react-router-dom';
 import emailjs from 'emailjs-com'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function Contact() {
   const navigate = useNavigate()
   const {setHomeButton} = useContext(HomeRedirect)
   useEffect(()=>{
+    Aos.init({ duration: 2000 })
       setHomeButton(true)
   },[])
     const submit = (e) => {
@@ -29,7 +31,7 @@ function Contact() {
   return (
     <div id='contact'>
         <Container>
-        <h1>Contact</h1>
+        <h1 data-aos="fade-left">Contact</h1>
         <form action="" onSubmit={submit}>
         <Row>
           <Col sm={12}>

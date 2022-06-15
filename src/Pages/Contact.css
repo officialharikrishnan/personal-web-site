@@ -1,5 +1,5 @@
 #contact{
-    height: 660px;
+    height: 675px;
     background-color: rgba(15, 15, 38, 0.347);
 
 }
@@ -11,6 +11,7 @@ input{
 h1{
     color: white;
     margin-top: 0;
+    font-size: x-large;
 }
 textarea{
     width: 70%;
