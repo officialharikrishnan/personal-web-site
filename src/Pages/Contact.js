@@ -1,37 +1,60 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
 import './Contact.css'
 import { Container, Row, Col } from 'react-grid-system';
+import { HomeRedirect } from '../Context/Homecontext';
+import { useNavigate } from 'react-router-dom';
+import emailjs from 'emailjs-com'
+
 
 function Contact() {
+  const navigate = useNavigate()
+  const {setHomeButton} = useContext(HomeRedirect)
+  useEffect(()=>{
+      setHomeButton(true)
+  },[])
+    const submit = (e) => {
+      e.preventDefault()
+      emailjs.sendForm('service_2is9e3m',
+          'template_7dju6vp',
+          e.target,
+          'o_rCVXT5vjDS3ogzN')
+          .then((res) => {
+              navigate('/')
+          }).catch((err) => {
+              console.log(err);
+              alert("Error")
+          })
+
+  }
   return (
     <div id='contact'>
         <Container>
         <h1>Contact</h1>
-        <form action="">
+        <form action="" onSubmit={submit}>
         <Row>
           <Col sm={12}>
             <div className="inputarea">
 
             <i className="fa fa-user fa-2x"></i>
-            <input type="text" placeholder="Enter Username" />
+            <input type="text" name='name' placeholder="Enter Username" />
             </div>
           </Col>
           <Col sm={12}>
             <div className="inputarea">
 
           <i className="fa fa-envelope fa-2x"></i>
-            <input type="text" placeholder="Enter Email" />
+            <input type="text" name='Email' placeholder="Enter Email" />
             </div>
           </Col>
           <Col sm={12}>
             <div className="inputarea">
 
           <i className="fa fa-pencil-square fa-2x"></i>
-            <textarea type="text"  placeholder="...🖊" />
+            <textarea type="text" name='Suggestions' placeholder="...🖊" />
             </div>
           </Col>
         </Row>
-        <button>Sent</button>
+        <button type='submit' id='btn'>Sent</button>
         </form>
         </Container>
     </div>

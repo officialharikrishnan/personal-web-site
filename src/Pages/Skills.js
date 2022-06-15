@@ -1,12 +1,15 @@
-import React, { useEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import './Skills.css'
 import ProgressBar from 'react-percent-bar';
-import { Container, Row, Col } from 'react-grid-system';
+import { Row, Col } from 'react-grid-system';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { HomeRedirect } from '../Context/Homecontext';
 function Skills() {
+    const {setHomeButton} = useContext(HomeRedirect)
     useEffect(()=>{
         Aos.init({ duration: 2000 })
+        setHomeButton(true)
     },[])
     return (
         <div>
