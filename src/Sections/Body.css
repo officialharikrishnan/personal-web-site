@@ -28,28 +28,3 @@ button:hover{
     cursor: pointer;
     background-color: rgba(12, 41, 231, 0.458);
 }
-#skills{
-    color: white;
-    margin-top: 20%;
-    background-color: rgba(15, 15, 38, 0.347);
-    padding: 15px;
-}
-#skills h1{
-    text-decoration: underline;
-}
-#about{
-    color: white;
-    /* margin-top: 20%; */
-    background-color: rgba(15, 15, 38, 0.347);
-    padding: 15px;
-
-}
-#about h1{
-    text-decoration: underline;
-}
-#about h2{
-    margin-left: 10%;
-    max-width: 300px;
-    
-
-}

@@ -1,0 +1,26 @@
+input{
+    width: 70%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+h1{
+    color: white;
+}
+textarea{
+    width: 70%;
+    height: 50px;
+}
+i{
+    margin-top: 10px;
+    margin-right: 5px;
+    color: white;
+}
+button{
+    background-color: rgba(255, 255, 255, 0.447);
+    border-radius: 7px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
