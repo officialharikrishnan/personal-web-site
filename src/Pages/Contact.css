@@ -1,6 +1,9 @@
+#contact{
+    height: 660px;
+}
 input{
     width: 70%;
-    height: 30px;
+    height: 35px;
     margin-bottom: 10px;
 }
 h1{
@@ -8,7 +11,7 @@ h1{
 }
 textarea{
     width: 70%;
-    height: 50px;
+    height: 100px;
 }
 i{
     margin-top: 10px;
@@ -18,9 +21,14 @@ i{
 button{
     background-color: rgba(255, 255, 255, 0.447);
     border-radius: 7px;
-    width: 80px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    font-weight: 600;
     color: white;
     border: none;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+.inputarea{
+    margin-top: 50px;
 }

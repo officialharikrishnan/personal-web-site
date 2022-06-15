@@ -1,8 +1,12 @@
+.footer{
+    background-color: #11416e;
+    
+}
 .icon{
     color: white;
     padding: 10px;
     margin-top: 15px;
-    margin-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 .icon:hover{
     cursor: pointer;

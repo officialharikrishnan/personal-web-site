@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   overflow: hidden;
+  height: 100%;
 }
 body{
 	font-family:"arial",heletica,sans-serif;

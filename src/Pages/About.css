@@ -1,17 +1,12 @@
 
 #about{
     color: white;
-    /* margin-top: 20%; */
     background-color: rgba(15, 15, 38, 0.347);
-    padding: 15px;
+    padding: 10%;
+    text-align: center;
+    height: 500px;
 
 }
 #about h1{
     text-decoration: underline;
-}
-#about h2{
-    margin-left: 10%;
-    max-width: 300px;
-    
-
 }
