@@ -3,6 +3,9 @@ input{
     height: 30px;
     margin-bottom: 10px;
 }
+h1{
+    color: white;
+}
 textarea{
     width: 70%;
     height: 50px;
@@ -19,4 +22,15 @@ button{
     height: 30px;
     color: white;
     border: none;
+    margin-top: 20px;
+}
+.icon{
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.icon:hover{
+    cursor: pointer;
+    color: rgb(201, 201, 201);
 }
