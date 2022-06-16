@@ -2,9 +2,7 @@
 import './App.css';
 import {
   BrowserRouter, Routes,
-  Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Skills from './Pages/Skills';
 import About from './Pages/About';

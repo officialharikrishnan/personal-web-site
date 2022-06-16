@@ -7,9 +7,9 @@ import { HomeRedirect } from '../Context/Homecontext';
 function About() {
   const {setHomeButton} = useContext(HomeRedirect)
   useEffect(()=>{
-    Aos.init({ duration: 2000 })
-    setHomeButton(true)
-},[])
+  setHomeButton(true)
+  Aos.init({ duration: 2000 })
+},[setHomeButton])
   return (
     <div>
         <section id='about'>

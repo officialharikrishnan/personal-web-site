@@ -10,7 +10,7 @@ function Skills() {
     useEffect(()=>{
         Aos.init({ duration: 2000 })
         setHomeButton(true)
-    },[])
+    },[setHomeButton])
     return (
         <div>
 
