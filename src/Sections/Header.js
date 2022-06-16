@@ -13,8 +13,6 @@ function Header() {
                 <li><a href="/about"><h2>About</h2></a></li>
                 <li><a href="/contact"><h2>Contact</h2></a></li>
             </ul>
-
-
         </div>
     )
 }

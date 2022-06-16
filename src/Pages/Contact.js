@@ -40,14 +40,14 @@ function Contact() {
             <div className="inputarea">
 
             <i className="fa fa-user fa-2x"></i>
-            <input type="text" name='name' placeholder="Enter Username" />
+            <input type="text" name='name' placeholder="Enter Username" required/>
             </div>
           </Col>
           <Col sm={12}>
             <div className="inputarea">
 
           <i className="fa fa-envelope fa-2x"></i>
-            <input type="text" name='Email' placeholder="Enter Email" />
+            <input type="text" name='Email' placeholder="Enter Email" required/>
             </div>
           </Col>
           <Col sm={12}>

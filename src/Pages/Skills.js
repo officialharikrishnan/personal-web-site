@@ -48,8 +48,7 @@ function Skills() {
                      </div>
                     </Col>
                 </Row>
-            </section>
-            
+            </section>        
         </div>
     )
 }

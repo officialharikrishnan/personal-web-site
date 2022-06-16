@@ -18,7 +18,6 @@ function Body() {
     };
     return (
         <div>
-
             <Container>
                 <section id='header'>
 
@@ -35,9 +34,7 @@ function Body() {
                     <button onClick={sendEmail}>Hire Me</button>
                     <button onClick={downloadFile}>Download CV</button>
                 </div>
-
             </Container>
-
         </div>
     )
 }
