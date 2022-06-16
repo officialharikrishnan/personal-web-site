@@ -14,6 +14,7 @@ function Contact() {
     Aos.init({ duration: 2000 })
       setHomeButton(true)
   },[])
+  
     const submit = (e) => {
       e.preventDefault()
       emailjs.sendForm('service_2is9e3m',
@@ -22,6 +23,7 @@ function Contact() {
           'o_rCVXT5vjDS3ogzN')
           .then((res) => {
               navigate('/')
+              
           }).catch((err) => {
               console.log(err);
               alert("Error")
@@ -56,7 +58,7 @@ function Contact() {
             </div>
           </Col>
         </Row>
-        <button type='submit' id='btn'>Sent</button>
+        <button type='submit'  id='btn'>Sent</button>
         </form>
         </Container>
     </div>

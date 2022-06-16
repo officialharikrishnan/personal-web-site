@@ -28,10 +28,10 @@ function Footer() {
         
         
         <section>
-        <FontAwesomeIcon onClick={facebookLink} className='icon' icon={faFacebook} size="3x" />
-        <FontAwesomeIcon onClick={instagramLink} className='icon' icon={faInstagram} size="3x" />
-        <FontAwesomeIcon onClick={linkedInLink} className='icon' icon={faLinkedin} size="3x" />
-        <FontAwesomeIcon onClick={gitHubLink} className='icon' icon={faGithub} size="3x" />
+        <FontAwesomeIcon onClick={facebookLink} className='icon' icon={faFacebook} size="2x" />
+        <FontAwesomeIcon onClick={instagramLink} className='icon' icon={faInstagram} size="2x" />
+        <FontAwesomeIcon onClick={linkedInLink} className='icon' icon={faLinkedin} size="2x" />
+        <FontAwesomeIcon onClick={gitHubLink} className='icon' icon={faGithub} size="2x" />
 
         </section>
       </Container>
