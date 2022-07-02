@@ -11,7 +11,7 @@ function Body() {
         Aos.init({ duration: 2000 })
     }, [])
     const downloadFile = () => {
-        window.location.href = "https://drive.google.com/file/d/1-B2NcShmEUkzx6gKTJeBcmQdqDwHBHYG/view?usp=sharing"
+        window.location.href = "https://drive.google.com/file/d/1fCqZp3TzOFdOgdp_RGfLSp-o3HpWB9Xh/view?usp=sharing"
     }
     const sendEmail = () => {
         window.open("mailto:harikrishnanpnr001@gmail.com?subject=Welcome to ....&body=Dear Harikrishnan,");
